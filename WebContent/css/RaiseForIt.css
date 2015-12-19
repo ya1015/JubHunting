@@ -1,0 +1,569 @@
+@charset "UTF-8";
+
+div {
+	display: block;
+}
+
+html, body {
+	margin: 0;
+	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+	background: #ffffff;
+	width: 100%;
+	height: 100%;
+}
+
+.clearfix {
+	clear: both;
+}
+/* サイト名 */
+.site h1 a {
+	color: #000000;
+	text-decoration: none
+}
+
+.site h1 {
+	margin: 0;
+	font-size: 30em;
+}
+
+.site img {
+	border: none;
+}
+
+/* ヘッダー画像 */
+.topimg {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+/* サイドメニュー */
+.sidemenu {
+	border: solid 6px #dddddd;
+}
+
+.sidemenu h1 {
+	margin: 0;
+	padding: 10px;
+	font-size: 16em;
+	font-weight: normal
+}
+
+.sidemenu h1 i {
+	margin-right: 5em;
+	color: #8abc60;
+	font-size: larger
+}
+
+.sidemenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+.sidemenu li a {
+	display: block;
+	padding: 10px;
+	border-top: solid 1px #dddddd;
+	color: #000000;
+	font-size: 14em;
+	text-decoration: none
+}
+
+.sidemenu li a:hover {
+	background-color: #eeeeee
+}
+
+.contents {
+	width: 1140px;
+	margin: 0 auto;
+	background-color: #FFF;
+	overflow: hidden;
+}
+
+.contents-inner {
+	margin: 0 auto;
+	background-color: #FFF;
+	height: auto;
+}
+
+/* ########### index ###########*/
+.main-visual {
+	position: relative;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-position: center;
+	background-size: cover;
+}
+
+/* ########### raise ###########*/
+.raise-main-visual {
+	backgroud-image: url(img/index_main.jpg);
+	height: 600px;
+}
+
+.raise-button {
+	z-index: 10px;
+	margin: 0 auto;
+}
+
+/*raise-form*/
+.raise-form-inner {width 1000px;
+	margin: 0 auto;
+	height: auto;
+}
+
+.form {
+	text-align: center;
+	margin: 0 auto;
+	width: 120q0px;
+	padding: 20px;
+}
+
+/* ########### list ###########*/
+.project-box {
+	width: 249px;
+	height: 330px;
+	float: left;
+	margin: 18px 18px 18px 18px;
+	background-color: #EEEEEE;
+}
+
+.project-shousai-inner {
+	width: 600px;
+	height: 500px;
+	float: left;
+}
+
+.project-shousai-img {
+	width: 564px;
+	height: 464px;
+	margin: 18px 18px 18px 18px;
+}
+
+.project-shousai-inner-side {
+	width: 540px;
+	height: 500px;
+	float: left;
+}
+
+.project-situation {
+	width: 504px;
+	height: 464px;
+	margin: 18px 18px 18px 18px;
+	background-color: #c0c0c0;
+}
+
+.project-box h2, p {
+	text-align: center;
+}
+
+.ichiran-img {
+	width: 249px;
+	height: 140px;
+	margin: 0 auto;
+}
+
+/* ########### detail ###########*/
+.contents-up {
+	width: 100%;
+	height: 1200px;
+	background-color: #f0f8ff;
+}
+
+.title {
+	padding: 20px 0;
+	display: block;
+}
+
+.title h1 {
+	text-align: center;
+	display: block;
+	font-size: 2em;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+
+.contents-detail {
+	width: 100%;
+	margin: 0 auto;
+	height: 1000px;
+	text-align: left;
+	float: left !important;
+}
+
+.heading {
+	width: 60%;
+	float: left !important;
+}
+
+.thumbnail {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-bottom: 40px;
+	display: block;
+	position: relative;
+}
+
+.thumbnail img {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: vertical-align: bottom;
+	margin: 0;;
+}
+
+.caption h2 {
+	font-size: 16px;
+	margin-bottom: 10px;
+	display: block;
+	font-size: 1.5em;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+
+.status {
+	width: 40%;
+	float: right !important;
+}
+
+.recruitment-end {
+	display: block;
+	float: left;
+}
+
+.recruitment-end p {
+	line-height: 100%;
+	font-size: 40px;
+}
+
+.fund-offer {
+	display: block;
+	clear: both;
+}
+
+#main {
+	width: 70%;
+	display: block;
+	float: left !important;
+	text-align: left;
+}
+
+.projects-body {
+	text-align: left;
+	width: 80%;
+}
+
+.title-box {
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.title-box h3 {
+	line-height: 36px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-size: 1.17em;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+
+.main project-body p6 {
+	text-align: left;
+}
+
+.total-inner {
+	padding: 20px;
+}
+
+.support-amount {
+	display: block;
+	line-height: 100%;
+	font-size: 48px;
+}
+
+.target {
+	font-size: 14px;
+	text-align: right;
+}
+
+.support-inner {
+	padding: 20px;
+	text-align: left;
+}
+
+.support-numbers {
+	display: block;
+	line-height: 100%;
+	font-size: 48px;
+}
+
+p.text{
+	text-align: left;
+	font-size: 130%;
+}
+
+.footer {
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #000;
+	margin: 0 auto;
+}
+
+.copyright p {
+	margin: 0;
+	color: #FFF;
+	font-size: 14px;
+	text-align: center;
+}
+
+/* BOX Aの下に罫線を挿入（コンテンツページのみ） */
+.contents .header {
+	border-bottom: solid 1px #dddddd
+}
+
+/* ボックスの左右 */
+.header, .box4, footer, .box6, .box7 {
+	padding-left: 15px;
+	padding-right: 15px
+}
+
+/* ボックスの上下 */
+.header {
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+/* ########### shinki_touroku ########### */
+.title {
+	text-align: center;
+	font-weight: bold;
+}
+
+.shinki-form {
+	text-align: center;
+}
+
+.shinki-form table {
+	margin-right: auto;
+	margin-left: auto
+}
+
+.button {
+	width: 100px;
+	margin: 0 auto;
+}
+
+/* ########### 359px以下 ########### */
+@media ( max-width : 359px) {
+	/* サイト名 */
+	.site img {
+		width: 225px;
+		height: auto
+	}
+}
+
+/* ########### 599px以下 ########### */
+@media ( max-width : 599px) {
+	/* ナビゲーション */
+	.menu li a {
+		padding: 10px 7px;
+		font-size: 11px
+	}
+}
+
+/* ########### 767px以下 ########### */
+@media ( max-width : 767px) {
+	/* トグルボタン */
+	#menubtn {
+		padding: 6px 12px;
+		border: solid 1px #aaaaaa;
+		border-radius: 5px;
+		background-color: #ffffff;
+		position: absolute;
+		top: 20px;
+		right: 15px;
+		cursor: pointer
+	}
+	#menubtn:hover {
+		background-color: #00ffff
+	}
+	#menubtn:focus {
+		outline: none
+	}
+	#menubtn i {
+		color: #888888;
+		font-size: 18px
+	}
+	#menubtn span {
+		display: inline-block;
+		text-indent: -9999px
+	}
+
+	/* ナビゲーションメニュー（縦並び） */
+	.menu {
+		display: none;
+		background-color: black;
+	}
+	.menu ul {
+		margin: 0;
+		padding: 0;
+		list-style: none
+	}
+	.menu li a {
+		display: block;
+		padding: 5px;
+		color: white;
+		font-size: 14px;
+		text-decoration: none
+	}
+	.menu li a:hover {
+		color: #00ffff;
+	}
+}
+
+/* ########### 768px以上 ########### */
+@media ( min-width : 768px) {
+	/* トグルボタン */
+	#menubtn {
+		display: none
+	}
+
+	/* ナビゲーション */
+	#menu {
+		display: block !important
+	}
+	.menu ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.menu li a {
+		display: block;
+		padding: 10px 15px;
+		color: white;
+		font-size: 16px;
+		text-decoration: none
+	}
+	.menu li a:hover {
+		color: #00ffff;
+	}
+	.menu ul:after {
+		content: "";
+		display: block;
+		clear: both
+	}
+	.menu li {
+		float: left;
+		width: auto
+	}
+
+	/* BOX1とBOX2を横に並べる設定 */
+	.header:after {
+		content: "";
+		display: block;
+		clear: both
+	}
+	.box1 {
+		float: left;
+		width: auto;
+	}
+	.box2 {
+		float: right;
+		width: auto
+	}
+
+	/* BOX4-1とBOX4-2を横に並べる設定 */
+	.box4:after {
+		content: "";
+		display: block;
+		clear: both
+	}
+	.box4-1 {
+		float: left;
+		width: 70%;
+		padding-right: 35px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box
+	}
+	.box4-2 {
+		float: left;
+		width: 30%
+	}
+
+	/*
+	/* ########### 1190px以上 ########### */
+	@media ( min-width : 1190px) {
+		/* 全体の横幅を固定 */
+		.box4, .header-inner, .footer-inner {
+			width: 1140px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	*
+	/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
